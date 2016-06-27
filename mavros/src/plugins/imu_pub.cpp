@@ -100,7 +100,7 @@ public:
 			       MESSAGE_HANDLER(MAVLINK_MSG_ID_HIGHRES_IMU, &IMUPubPlugin::handle_highres_imu),
 			       MESSAGE_HANDLER(MAVLINK_MSG_ID_RAW_IMU, &IMUPubPlugin::handle_raw_imu),
 			       MESSAGE_HANDLER(MAVLINK_MSG_ID_SCALED_IMU, &IMUPubPlugin::handle_scaled_imu),
-			       MESSAGE_HANDLER(MAVLINK_MSG_ID_SCALED_PRESSURE, &IMUPubPlugin::handle_scaled_pressure),
+			       MESSAGE_HANDLER(MAVLINK_MSG_ID_SCALED_PRESSURE2, &IMUPubPlugin::handle_scaled_pressure),
 		};
 	}
 
